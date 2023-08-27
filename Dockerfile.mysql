@@ -1,0 +1,9 @@
+FROM mysql:latest
+
+# Configurações do banco de dados
+ENV MYSQL_ROOT_PASSWORD=root_password
+ENV MYSQL_DATABASE=transacional_db
+ENV MYSQL_USER=user
+ENV MYSQL_PASSWORD=user_password
+
+EXPOSE 3306

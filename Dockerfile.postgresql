@@ -1,0 +1,8 @@
+FROM postgres:latest
+
+# Configurações do banco de dados
+ENV POSTGRES_USER=user
+ENV POSTGRES_PASSWORD=user_password
+ENV POSTGRES_DB=datawarehouse_db
+
+EXPOSE 5432
